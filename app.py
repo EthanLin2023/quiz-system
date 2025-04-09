@@ -8,10 +8,12 @@ app = Flask(__name__)
 # 從環境變數中獲取資料庫配置
 def connect_db():
     return mysql.connector.connect(
-        host=os.getenv("DB_HOST", "localhost"),
-        user=os.getenv("DB_USER", "root"),
-        password=os.getenv("DB_PASSWORD", "1234"),
-        database=os.getenv("DB_NAME", "exams")
+        host=os.getenv("DB_HOST"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        database=os.getenv("DB_NAME"),
+        port=int(os.getenv("DB_PORT")),
+        ssl_ca=os.getenv("SSL_CA_PATH", "ca.pem")  # 指向 ca.pem 檔案
     )
 
 # 首頁路由：渲染 index.html
@@ -71,5 +73,5 @@ def get_questions():
     return jsonify(list(questions.values()))
 
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", 5000))  # 從環境變數獲取端口，預設為 5000
+    port = int(os.getenv("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
