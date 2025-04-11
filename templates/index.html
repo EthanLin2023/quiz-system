@@ -34,11 +34,11 @@
             border: 1px solid #ccc; 
             border-radius: 4px; 
         }
-        .option.correct { background-color: #90ee90; }
-        .option.error { background-color: #ff6347; }
+        .option.correct { background-color: #90ee90; } /* 綠色底色 */
+        .option.error { background-color: #ff6347; } /* 紅色底色 */
         .explanation-block { border: 1px solid #ccc; padding: 10px; text-align: left; }
         .explanation-item { margin: 5px 0; padding: 5px; }
-        .explanation-item.correct { background-color: #90ee90; }
+        .explanation-item.correct { background-color: #90ee90; } /* 正確解釋的綠色底色 */
         .error { color: red; }
         .correct { color: green; }
         button { 
@@ -51,23 +51,19 @@
             cursor: pointer; 
         }
         button:hover { background-color: #0056b3; }
-        input[type="number"], select { 
+        input[type="number"] { 
             padding: 5px; 
             margin: 5px; 
-            width: 150px; 
+            width: 100px; 
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- 第一個畫面：選擇章節與題目範圍 -->
+        <!-- 第一個畫面：選擇題目範圍 -->
         <div id="screen1" class="screen active">
             <h2>測驗開始</h2>
-            <label>請選擇測驗章節：</label><br>
-            <select id="chapter-select">
-                <option value="">請選擇章節</option>
-            </select><br>
-            <p>本章節共有 <span id="total-questions">0</span> 題</p>
+            <p>總共有 <span id="total-questions"></span> 題</p>
             <label>請輸入測試範圍：</label><br>
             <input type="number" id="start-question" min="1" placeholder="開始題號">
             <input type="number" id="end-question" min="1" placeholder="結束題號">
@@ -78,7 +74,6 @@
         <!-- 第二個畫面：測驗進行 -->
         <div id="screen2" class="screen">
             <h2>測驗進行中</h2>
-            <p>章節：<span id="current-chapter"></span></p>
             <div class="question-block" id="question-text"></div>
             <div class="options-block" id="options"></div>
             <button onclick="submitAnswer()" id="submit-btn">確認</button>
@@ -100,57 +95,29 @@
         let currentQuestion = 0;
         let answers = [];
         let totalQuestions = 0;
-        let selectedChapter = '';
 
-        // 初始化：載入章節列表
-        fetch('/api/chapters')
+        // 初始化第一個畫面
+        fetch('/api/questions/count')
             .then(response => response.json())
             .then(data => {
-                const chapterSelect = document.getElementById('chapter-select');
-                data.chapters.forEach(chapter => {
-                    const option = document.createElement('option');
-                    option.value = chapter;
-                    option.textContent = chapter;
-                    chapterSelect.appendChild(option);
-                });
+                totalQuestions = data.total_questions;
+                document.getElementById('total-questions').textContent = totalQuestions;
+                document.getElementById('end-question').max = totalQuestions;
             });
-
-        // 當章節變更時更新題目數量
-        document.getElementById('chapter-select').addEventListener('change', function() {
-            selectedChapter = this.value;
-            if (selectedChapter) {
-                fetch(`/api/questions/count?chapter=${selectedChapter}`)
-                    .then(response => response.json())
-                    .then(data => {
-                        totalQuestions = data.total_questions;
-                        document.getElementById('total-questions').textContent = totalQuestions;
-                        document.getElementById('start-question').max = totalQuestions;
-                        document.getElementById('end-question').max = totalQuestions;
-                    });
-            } else {
-                document.getElementById('total-questions').textContent = '0';
-                totalQuestions = 0;
-            }
-        });
 
         // 開始測驗
         function startQuiz() {
             const start = parseInt(document.getElementById('start-question').value);
             const end = parseInt(document.getElementById('end-question').value);
-            if (!selectedChapter) {
-                alert('請選擇一個章節！');
-                return;
-            }
             if (start < 1 || end > totalQuestions || start > end) {
                 alert('請輸入有效的題目範圍！');
                 return;
             }
-            fetch(`/api/questions?chapter=${selectedChapter}&start=${start}&end=${end}`)
+            fetch(`/api/questions?start=${start}&end=${end}`)
                 .then(response => response.json())
                 .then(data => {
                     questions = data;
                     showScreen('screen2');
-                    document.getElementById('current-chapter').textContent = selectedChapter;
                     loadQuestion();
                 });
         }
@@ -158,15 +125,14 @@
         // 載入題目
         function loadQuestion() {
             const q = questions[currentQuestion];
-            // 使用後端返回的 question_number 作為題目編號
-            document.getElementById('question-text').textContent = `${q.question_number}. ${q.question}`;
+            document.getElementById('question-text').textContent = `${currentQuestion + 1}. ${q.question}`;
             const optionsDiv = document.getElementById('options');
             optionsDiv.innerHTML = '';
-            const labels = ['A', 'B', 'C', 'D'];
+            const labels = ['A', 'B', 'C', 'D']; // 選項編號
             q.options.forEach((opt, idx) => {
                 const label = document.createElement('label');
                 label.className = 'option';
-                label.setAttribute('data-index', opt.index);
+                label.setAttribute('data-index', opt.index); // 儲存選項的 index
                 label.innerHTML = `<input type="radio" name="option" value="${opt.index}"> ${labels[idx]}. ${opt.text}`;
                 optionsDiv.appendChild(label);
             });
@@ -185,6 +151,7 @@
             const userAnswer = parseInt(selected.value);
             const q = questions[currentQuestion];
 
+            // 儲存答案
             answers.push({
                 question: q.question,
                 userAnswer: userAnswer,
@@ -194,16 +161,18 @@
                 explanations: q.explanations
             });
 
+            // 標記選項的底色
             const options = document.querySelectorAll('.option');
             options.forEach(opt => {
                 const optIndex = parseInt(opt.getAttribute('data-index'));
                 if (optIndex === q.correct_answer_index) {
-                    opt.classList.add('correct');
+                    opt.classList.add('correct'); // 正確選項顯示綠色底色
                 } else if (optIndex === userAnswer && userAnswer !== q.correct_answer_index) {
-                    opt.classList.add('error');
+                    opt.classList.add('error'); // 錯誤選項顯示紅色底色
                 }
             });
 
+            // 顯示所有選項的解釋
             const explanationDiv = document.getElementById('explanation');
             explanationDiv.innerHTML = '';
             const labels = ['A', 'B', 'C', 'D'];
@@ -211,13 +180,14 @@
                 const explanationItem = document.createElement('div');
                 explanationItem.className = 'explanation-item';
                 if (opt.index === q.correct_answer_index) {
-                    explanationItem.classList.add('correct');
+                    explanationItem.classList.add('correct'); // 正確解釋顯示綠色底色
                 }
                 explanationItem.textContent = `選項 ${labels[idx]}. ${opt.text}: ${q.explanations[opt.index]}`;
                 explanationDiv.appendChild(explanationItem);
             });
             explanationDiv.style.display = 'block';
 
+            // 隱藏「確認」按鈕，顯示「下一題」按鈕
             document.getElementById('submit-btn').style.display = 'none';
             document.getElementById('next-btn').style.display = 'block';
         }

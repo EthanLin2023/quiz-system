@@ -5,103 +5,63 @@ import os
 
 app = Flask(__name__)
 
-# 資料庫連線函數
+# 從環境變數中獲取資料庫配置
 def connect_db():
-    return mysql.connector.connect(
-        host=os.getenv("DB_HOST"),
-        user=os.getenv("DB_USER"),
-        password=os.getenv("DB_PASSWORD"),
-        database=os.getenv("DB_NAME"),
-        port=int(os.getenv("DB_PORT")),
-        ssl_ca=os.getenv("SSL_CA_PATH", "ca.pem")
-    )
+    try:
+        # 建立連線參數
+        config = {
+            "host": os.getenv("DB_HOST", "localhost"),
+            "user": os.getenv("DB_USER", "root"),
+            "password": os.getenv("DB_PASSWORD", "1234"),
+            "database": os.getenv("DB_NAME", "exams"),
+            "port": int(os.getenv("DB_PORT", 3306)),
+        }
 
-# 首頁路由
+        # 若有設定 SSL_CA_PATH，才加入 SSL 配置
+        ssl_ca_path = os.getenv("SSL_CA_PATH")
+        if ssl_ca_path:
+            config["ssl_ca"] = ssl_ca_path
+
+        return mysql.connector.connect(**config)  # ✅ 正確回傳資料庫連線
+
+    except mysql.connector.Error as err:  # ✅ 捕捉連線錯誤
+        print(f"[DB ERROR] 無法連接資料庫: {err}")
+        return None
+
+# 首頁路由：渲染 index.html
 @app.route('/')
 @app.route('/index.html')
 def index():
     return render_template('index.html')
 
-# API：取得章節列表（不重複）
-@app.route('/api/chapters', methods=['GET'])
-def get_chapters():
-    chapters = ['chapter_1', 'chapter_2', 'chapter_3', 'chapter_6']
-    return jsonify({"chapters": chapters})
-
-# API：取得指定章節的題目數量
+# API：取得總題數與題目範圍
 @app.route('/api/questions/count', methods=['GET'])
 def get_question_count():
-    chapter = request.args.get('chapter')
-    if not chapter:
-        return jsonify({"error": "必須提供章節名稱"}), 400
-    
-    # 根據 chapter 映射到 exams.id 的第 9~11 碼
-    chapter_map = {
-        'chapter_1': 'ch1',
-        'chapter_2': 'ch2',
-        'chapter_3': 'ch3',
-        'chapter_6': 'ch6'
-    }
-    chapter_code = chapter_map.get(chapter)
-    if not chapter_code:
-        return jsonify({"error": "無效的章節名稱"}), 400
-
     db = connect_db()
     cursor = db.cursor()
-    # 使用 SUBSTRING 提取 exams.id 的第 9~11 碼進行比對
-    query = """
-        SELECT COUNT(*) 
-        FROM question_pages qp 
-        JOIN exams e ON qp.exam_id = e.id 
-        WHERE SUBSTRING(e.id, 9, 3) = %s
-    """
-    cursor.execute(query, (chapter_code,))
+    cursor.execute("SELECT COUNT(*) FROM question_pages")
     total = cursor.fetchone()[0]
     cursor.close()
     db.close()
     return jsonify({"total_questions": total})
 
-# API：取得指定章節和範圍的題目資料
+# API：取得指定範圍的題目資料
 @app.route('/api/questions', methods=['GET'])
 def get_questions():
-    chapter = request.args.get('chapter')
-    start = int(request.args.get('start', 1)) - 1  # 轉為 0 開始的索引
+    start = int(request.args.get('start', 1)) - 1  # 從 0 開始計數
     end = int(request.args.get('end', 1))
-    if not chapter:
-        return jsonify({"error": "必須提供章節名稱"}), 400
-
-    # 根據 chapter 映射到 exams.id 的第 9~11 碼
-    chapter_map = {
-        'chapter_1': 'ch1',
-        'chapter_2': 'ch2',
-        'chapter_3': 'ch3',
-        'chapter_6': 'ch6'
-    }
-    chapter_code = chapter_map.get(chapter)
-    if not chapter_code:
-        return jsonify({"error": "無效的章節名稱"}), 400
-
     db = connect_db()
     cursor = db.cursor(dictionary=True)
     
-    # 查詢題目，並提取 exams.id 的最後 2 碼作為題號
     query = """
-        SELECT qp.id, qp.exam_id, 
-               SUBSTRING(qp.exam_id, -2) AS question_number,  -- 提取 exams.id 的最後 2 碼
-               qp.content_text AS question, 
-               ap.correct_answer_index, 
-               o.index AS opt_index, 
-               o.text AS opt_text, 
-               o.explanation AS opt_explanation
+        SELECT qp.id, qp.exam_id, qp.content_text AS question, 
+               ap.correct_answer_index, o.index AS opt_index, o.text AS opt_text, o.explanation AS opt_explanation
         FROM question_pages qp
-        JOIN exams e ON qp.exam_id = e.id
         LEFT JOIN answer_pages ap ON qp.exam_id = ap.exam_id AND qp.index = ap.index
         LEFT JOIN options o ON ap.id = o.answer_page_id
-        WHERE SUBSTRING(e.id, 9, 3) = %s
-        ORDER BY qp.id
-        LIMIT %s OFFSET %s
+        WHERE qp.id BETWEEN %s AND %s
     """
-    cursor.execute(query, (chapter_code, end - start, start))
+    cursor.execute(query, (start + 1, end))
     rows = cursor.fetchall()
 
     questions = {}
@@ -110,7 +70,6 @@ def get_questions():
         if q_id not in questions:
             questions[q_id] = {
                 "question": row['question'],
-                "question_number": row['question_number'],  # 新增題號
                 "options": [],
                 "correct_answer_index": row['correct_answer_index'],
                 "explanations": {}
