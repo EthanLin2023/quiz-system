@@ -1,0 +1,3396 @@
+[
+  {
+    "id": "ipas-finance-ch1-0001",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "企業籌措資金之管道可分為「直接金融」與「間接金融」兩種；下列何者是屬於「直接金融」？甲.發行新股；乙.發行轉換公司債；丙.向銀行借款；丁.辦理私募"
+        },
+        "explanation": "本題測驗對企業籌資方式分類的理解。直接金融是指資金需求者（如企業）直接從投資人取得資金，透過發行股票、公司債等方式進行融資；而間接金融則是透過金融中介（如銀行）取得資金。"
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "甲、丙、丁",
+            "explanation": "丙為向銀行借款，屬於間接金融，因此此選項不正確。"
+          },
+          {
+            "index": 1,
+            "text": "甲、乙、丙",
+            "explanation": "丙為間接金融，而其餘兩項為直接金融，因此此選項不正確。"
+          },
+          {
+            "index": 2,
+            "text": "甲、乙、丁",
+            "explanation": "正確答案。甲（發行新股）、乙（發行轉換公司債）、丁（辦理私募）皆為企業直接與投資人進行資金交易，屬於直接金融。"
+          },
+          {
+            "index": 3,
+            "text": "甲、乙、丙、丁",
+            "explanation": "包含丙（向銀行借款）為間接金融，故此選項不正確。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0002",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "何者不是貨幣市場的證券？ (A)國庫券 (B)銀行承兌匯票 (C)長期債券 (D)商業本票"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "國庫券",
+            "explanation": "國庫券屬於短期政府債務，屬於貨幣市場工具。"
+          },
+          {
+            "index": 1,
+            "text": "銀行承兌匯票",
+            "explanation": "屬於貨幣市場的短期票據。"
+          },
+          {
+            "index": 2,
+            "text": "長期債券",
+            "explanation": "正確答案。長期債券屬於資本市場工具，不屬於貨幣市場。"
+          },
+          {
+            "index": 3,
+            "text": "商業本票",
+            "explanation": "屬於貨幣市場中常見的短期融資工具。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0003",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "一般而言，投資下列金融工具的風險狀況依序為何？甲.短期公債；乙.股票；丙.認購權證；丁.長期公債\n(A)乙＞丁＞甲＞丙 (B)丙＞甲＞丁＞乙 (C)甲＞乙＞丙＞丁 (D)丙＞乙＞丁＞甲"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "乙＞丁＞甲＞丙",
+            "explanation": "不符合一般風險評價排序。"
+          },
+          {
+            "index": 1,
+            "text": "丙＞甲＞丁＞乙",
+            "explanation": "短期債風險不會大於權證。"
+          },
+          {
+            "index": 2,
+            "text": "甲＞乙＞丙＞丁",
+            "explanation": "短期公債風險不大於股票與權證。"
+          },
+          {
+            "index": 3,
+            "text": "丙＞乙＞丁＞甲",
+            "explanation": "正確答案。認購權證風險最大，其次為股票、長期公債，風險最小為短期公債。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0004",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者為「貨幣市場」的工具？ (A)公司債 (B)政府債券 (C)可轉換定期存單 (D)存託憑證"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "公司債",
+            "explanation": "為長期融資工具，屬於資本市場。"
+          },
+          {
+            "index": 1,
+            "text": "政府債券",
+            "explanation": "多為中長期債，屬於資本市場。"
+          },
+          {
+            "index": 2,
+            "text": "可轉換定期存單",
+            "explanation": "正確答案。屬於短期流動工具，為貨幣市場工具。"
+          },
+          {
+            "index": 3,
+            "text": "存託憑證",
+            "explanation": "為資本市場中的證券化工具。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0005",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "有價證券之發行人在證券市場中是扮演資金的何種角色？ (A)供給者 (B)需求者 (C)創造者 (D)調節者"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "供給者",
+            "explanation": "投資人才是資金供給者。"
+          },
+          {
+            "index": 1,
+            "text": "需求者",
+            "explanation": "正確答案。發行人（如企業）是資金需求方，透過證券市場籌資。"
+          },
+          {
+            "index": 2,
+            "text": "創造者",
+            "explanation": "非標準角色。"
+          },
+          {
+            "index": 3,
+            "text": "調節者",
+            "explanation": "調節者應為政府或監理機構角色。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0006",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "有關次級市場的敘述，下列何者「不正確」？\n(A)次級市場交易包括集中市場及店頭市場\n(B)提高投資人資產的流動性\n(C)方便股票易手\n(D)次級市場可使企業藉實股票、債券及其他證券以取得資金"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "次級市場交易包括集中市場及店頭市場",
+            "explanation": "正確。"
+          },
+          {
+            "index": 1,
+            "text": "提高投資人資產的流動性",
+            "explanation": "正確。"
+          },
+          {
+            "index": 2,
+            "text": "方便股票易手",
+            "explanation": "正確。"
+          },
+          {
+            "index": 3,
+            "text": "次級市場可使企業藉實股票、債券及其他證券以取得資金",
+            "explanation": "正確答案。此敘述錯誤。取得資金是初級市場的功能，次級市場僅提供流動性，不提供新資金。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0007",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "何者屬於資本市場之工具？\n甲.可轉換公司債；乙.銀行承兌匯票；丙.政府債券；丁.國庫券\n(A) 僅甲、乙\n(B) 僅丙、丁\n(C) 僅甲、丙\n(D) 僅甲、丁"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅甲、乙",
+            "explanation": "乙（銀行承兌匯票）屬於貨幣市場工具，非資本市場工具。"
+          },
+          {
+            "index": 1,
+            "text": "僅丙、丁",
+            "explanation": "丁（國庫券）為短期債券，屬於貨幣市場工具。"
+          },
+          {
+            "index": 2,
+            "text": "僅甲、丙",
+            "explanation": "正確答案。甲（可轉換公司債）與丙（政府債券）皆屬於長期投資工具，為資本市場工具。"
+          },
+          {
+            "index": 3,
+            "text": "僅甲、丁",
+            "explanation": "丁（國庫券）為短期工具，屬於貨幣市場。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0008",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "經濟主體以發行股票、債券等有價證券，透過證券市場揭露訊息大眾籌措資金的融資方式，係為：\n(A) 短期金融\n(B) 間接金融\n(C) 直接金融\n(D) 消費金融"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "短期金融",
+            "explanation": "短期金融是指一年期內的短期資金調度工具，與題意無關。"
+          },
+          {
+            "index": 1,
+            "text": "間接金融",
+            "explanation": "間接金融為透過銀行等金融中介機構取得資金，非直接向大眾募集。"
+          },
+          {
+            "index": 2,
+            "text": "直接金融",
+            "explanation": "正確答案。直接金融是由企業或政府直接透過發行有價證券向投資人募資。"
+          },
+          {
+            "index": 3,
+            "text": "消費金融",
+            "explanation": "消費金融與個人消費借貸有關，與企業募資無關。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0009",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "「證券商營業處所買賣有價證券管理辦法」第二條對櫃檯買賣的定義是：\n(A) 在台灣證券交易所以外場所之買賣\n(B) 在櫃檯買賣中心買賣\n(C) 在證券公司之櫃檯買賣\n(D) 不在集中交易市場以競價買賣，而在證券商專設櫃檯交易"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "在台灣證券交易所以外場所之買賣",
+            "explanation": "過於模糊，不足以構成正式定義。"
+          },
+          {
+            "index": 1,
+            "text": "在櫃檯買賣中心買賣",
+            "explanation": "並未準確描述管理辦法中定義。"
+          },
+          {
+            "index": 2,
+            "text": "在證券公司之櫃檯買賣",
+            "explanation": "描述不夠完整，未提及非集中市場與競價條件。"
+          },
+          {
+            "index": 3,
+            "text": "不在集中交易市場以競價買賣，而在證券商專設櫃檯交易",
+            "explanation": "正確答案。此為管理辦法中對櫃檯買賣的完整定義。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0010",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "發行市場管理之目標：\n(A) 協助企業募集資金優先於保障投資\n(B) 保障投資優先於協助企業募集資金\n(C) 協助企業募集資金與保障投資並重\n(D) 將違法者移送法辦"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "協助企業募集資金優先於保障投資",
+            "explanation": "僅強調企業利益，忽略投資人保護，非正確管理原則。"
+          },
+          {
+            "index": 1,
+            "text": "保障投資優先於協助企業募集資金",
+            "explanation": "與實務目標不符，應兩者並重。"
+          },
+          {
+            "index": 2,
+            "text": "協助企業募集資金與保障投資並重",
+            "explanation": "正確答案。發行市場應兼顧資金籌措與投資人保護，確保市場健全。"
+          },
+          {
+            "index": 3,
+            "text": "將違法者移送法辦",
+            "explanation": "雖為重要職責之一，但非發行市場管理的主要目標。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0011",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "在銀行中，從借貸者中獲取的利息與付給存款人利息之間的差價稱為：\n(A) 風險貼水\n(B) 利差\n(C) 保險貼水\n(D) 期間貼水"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "風險貼水",
+            "explanation": "風險貼水為投資人因承擔風險而要求的額外報酬，與銀行利差無關。"
+          },
+          {
+            "index": 1,
+            "text": "利差",
+            "explanation": "正確答案。銀行的主要收益來源即為放款利率與存款利率之間的差距，稱為利差。"
+          },
+          {
+            "index": 2,
+            "text": "保險貼水",
+            "explanation": "通常指保險公司對風險的費率調整，與銀行無直接關係。"
+          },
+          {
+            "index": 3,
+            "text": "期間貼水",
+            "explanation": "是指長期與短期利率之間的差異，不直接描述銀行放存款差價。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0012",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "資本市場的工具到期日應：\n(A) 超過 1 個月\n(B) 超過半年\n(C) 超過 1 年\n(D) 1 年以下"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "超過 1 個月",
+            "explanation": "仍可能屬於貨幣市場工具，非資本市場分類依據。"
+          },
+          {
+            "index": 1,
+            "text": "超過半年",
+            "explanation": "時間太短，不符合資本市場定義標準。"
+          },
+          {
+            "index": 2,
+            "text": "超過 1 年",
+            "explanation": "正確答案。資本市場工具定義為到期日在一年以上的中長期金融工具。"
+          },
+          {
+            "index": 3,
+            "text": "1 年以下",
+            "explanation": "此為貨幣市場工具之特徵，與資本市場相反。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0013",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "在一般證券市場中所稱之為「發行市場」者，其另一種稱謂為：\n(A) 次級市場\n(B) 初級市場\n(C) 交易市場\n(D) 流通市場"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "次級市場",
+            "explanation": "為已發行證券買賣場所，非發行市場。"
+          },
+          {
+            "index": 1,
+            "text": "初級市場",
+            "explanation": "正確答案。初級市場即為發行市場，為證券首次對外發行募集資金之場所。"
+          },
+          {
+            "index": 2,
+            "text": "交易市場",
+            "explanation": "泛指所有證券交易場所，未明確代表發行功能。"
+          },
+          {
+            "index": 3,
+            "text": "流通市場",
+            "explanation": "即次級市場，供已發行證券買賣使用。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0014",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "得向證券金融事業辦理融資融券事項者有哪些？\n(A) 證券投資人\n(B) 證券商\n(C) 證券金融公司\n(D) 選項(A)(B)(C)皆是"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "證券投資人",
+            "explanation": "投資人可透過券商向證券金融事業辦理融資融券業務。"
+          },
+          {
+            "index": 1,
+            "text": "證券商",
+            "explanation": "證券商亦可辦理與證金公司有關融資融券業務。"
+          },
+          {
+            "index": 2,
+            "text": "證券金融公司",
+            "explanation": "證券金融公司為融資融券的重要中介。"
+          },
+          {
+            "index": 3,
+            "text": "選項(A)(B)(C)皆是",
+            "explanation": "正確答案。上述三者皆可向證券金融事業辦理相關業務。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0015",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者並非辦理融資融券業務時之證券商義務？\n(A) 提供集中交易市場成交設備\n(B) 有價證券之承銷\n(C) 有價證券之自有買賣\n(D) 有價證券買賣之代行紀"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "提供集中交易市場成交設備",
+            "explanation": "屬於券商基本設施義務之一。"
+          },
+          {
+            "index": 1,
+            "text": "有價證券之承銷",
+            "explanation": "正確答案。承銷屬於資本市場發行業務，非屬融資融券業務範疇。"
+          },
+          {
+            "index": 2,
+            "text": "有價證券之自有買賣",
+            "explanation": "券商可進行自營交易，與融資融券相關。"
+          },
+          {
+            "index": 3,
+            "text": "有價證券買賣之代行紀",
+            "explanation": "代客下單與紀錄亦屬融資融券業務必要流程。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0016",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列哪一種不是《證券交易法》第 1 條所稱證券服務事業？\n(A) 證券商\n(B) 證券金融公司\n(C) 證券投資信託公司\n(D) 證券保管公司"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "證券商",
+            "explanation": "為最主要的證券服務事業之一。"
+          },
+          {
+            "index": 1,
+            "text": "證券金融公司",
+            "explanation": "提供融資融券與信用交易相關服務，屬服務事業。"
+          },
+          {
+            "index": 2,
+            "text": "證券投資信託公司",
+            "explanation": "受《證券投信投顧法》規範，也列為服務事業之一。"
+          },
+          {
+            "index": 3,
+            "text": "證券保管公司",
+            "explanation": "正確答案。證券保管機構非屬《證交法》明列的證券服務事業。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0017",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "有關避險基金（Hedge Fund）之敘述何者「正確」？\n甲：以勝過一般指數為操作目標；乙：通常為私募；丙：只運用買進標的之投資策略；丁：流動性低"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅甲、乙",
+            "explanation": "丙與丁也正確，選項不完整。"
+          },
+          {
+            "index": 1,
+            "text": "僅丙、丁",
+            "explanation": "丙為錯誤陳述，避險基金不僅做多。"
+          },
+          {
+            "index": 2,
+            "text": "甲、乙、丙",
+            "explanation": "正確答案。避險基金操作靈活，並結合多空策略，甲乙丙皆正確。"
+          },
+          {
+            "index": 3,
+            "text": "甲、乙、丙、丁",
+            "explanation": "丁敘述錯誤，避險基金雖較不流動但非普遍特徵。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0018",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "證券集中交易市場買賣之有價證券，其集中交易方式由下列何機構辦理？\n(A) 證券集中保管公司\n(B) 特許資格之保管銀行\n(C) 證券交易所\n(D) 金融監督管理委員會"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "證券集中保管公司",
+            "explanation": "負責保管、交割結算，非交易主體。"
+          },
+          {
+            "index": 1,
+            "text": "特許資格之保管銀行",
+            "explanation": "屬於保管機構，非交易所。"
+          },
+          {
+            "index": 2,
+            "text": "證券交易所",
+            "explanation": "正確答案。證券交易所負責集中市場的交易制度與執行。"
+          },
+          {
+            "index": 3,
+            "text": "金融監督管理委員會",
+            "explanation": "主管機關，但不直接執行市場交易。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0019",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者非可在台灣證券交易所申請上市買賣之金融商品？\n(A) 認購權證\n(B) 受益憑證\n(C) 存託憑證\n(D) 利率交換契約"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "認購權證",
+            "explanation": "屬於衍生性金融商品，可申請上市交易。"
+          },
+          {
+            "index": 1,
+            "text": "受益憑證",
+            "explanation": "可由投信公司發行並上市。"
+          },
+          {
+            "index": 2,
+            "text": "存託憑證",
+            "explanation": "即海外企業股票的代表，可申請在台掛牌。"
+          },
+          {
+            "index": 3,
+            "text": "利率交換契約",
+            "explanation": "正確答案。此屬場外衍生性契約，不得在交易所掛牌。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0020",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "依《證券交易法》發行之有價證券，其發行人如欲申請上市，應向何者申請？\n(A) 金融監督管理委員會\n(B) 台灣證券交易所\n(C) 證券櫃檯買賣中心\n(D) 證券商業同業公會"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "金融監督管理委員會",
+            "explanation": "為主管機關，負責監理，但非直接收件機構。"
+          },
+          {
+            "index": 1,
+            "text": "台灣證券交易所",
+            "explanation": "正確答案。企業上市需向證交所提出申請，通過審核後得以上市。"
+          },
+          {
+            "index": 2,
+            "text": "證券櫃檯買賣中心",
+            "explanation": "為上櫃（OTC）市場之收件單位，非上市市場。"
+          },
+          {
+            "index": 3,
+            "text": "證券商業同業公會",
+            "explanation": "為業界組織，不具收件或審查職能。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0021",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "避險基金（Hedge Fund）為規避風險並增加收益，通常會：\nⅠ.買賣衍生性金融商品；Ⅱ.使用槓桿；Ⅲ.運用買進和放空之投資策略\n(A) 僅Ⅰ、Ⅲ\n(B) 僅Ⅱ、Ⅲ\n(C) 僅Ⅰ、Ⅱ\n(D) Ⅰ、Ⅱ、Ⅲ"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅Ⅰ、Ⅲ",
+            "explanation": "避險基金常搭配使用槓桿，Ⅱ也應包含。"
+          },
+          {
+            "index": 1,
+            "text": "僅Ⅱ、Ⅲ",
+            "explanation": "亦使用衍生性商品進行槓桿操作。"
+          },
+          {
+            "index": 2,
+            "text": "僅Ⅰ、Ⅱ",
+            "explanation": "未包含放空策略不完整。"
+          },
+          {
+            "index": 3,
+            "text": "Ⅰ、Ⅱ、Ⅲ",
+            "explanation": "正確答案。避險基金為達獲利目標，會綜合使用這三項策略。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0022",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "信託業可申請兼營下列哪些業務？\n(A) 以委任方式辦理全權委託投資業務\n(B) 以信託方式辦理全權委託投資業務\n(C) 證券投資顧問業務\n(D) 選項(A)(B)(C)皆是"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "以委任方式辦理全權委託投資業務",
+            "explanation": "信託業可依法兼營該項資產管理業務。"
+          },
+          {
+            "index": 1,
+            "text": "以信託方式辦理全權委託投資業務",
+            "explanation": "信託業得以信託形式代客理財。"
+          },
+          {
+            "index": 2,
+            "text": "證券投資顧問業務",
+            "explanation": "信託業可向主管機關申請兼營投顧業務。"
+          },
+          {
+            "index": 3,
+            "text": "選項(A)(B)(C)皆是",
+            "explanation": "正確答案。信託業得經主管機關核准兼營上述全部業務。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0023",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "發行交換公司債，則其交換標的須送存下列哪一個機構保管？\n(A) 金融監督管理委員會\n(B) 保管銀行\n(C) 台灣集中保管結算所\n(D) 標的為上市股票，送台灣證券交易所；標的為上櫃股票，送櫃檯買賣中心"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "金融監督管理委員會",
+            "explanation": "主管機關負責監理，但非保管機構。"
+          },
+          {
+            "index": 1,
+            "text": "保管銀行",
+            "explanation": "保管銀行主要處理基金資產保管，不負責證券實體保管。"
+          },
+          {
+            "index": 2,
+            "text": "台灣集中保管結算所",
+            "explanation": "正確答案。交換標的需送集中保管機構保存。"
+          },
+          {
+            "index": 3,
+            "text": "標的為上市股票送交台灣證券交易所，標的為上櫃股票送櫃買中心",
+            "explanation": "此說法僅為交易制度，非保管標的之作業規範。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0024",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "經營或提供有價證券價值分析、投資判斷建議，以獲取報酬者為何種事業？\n(A) 證券投資信託事業\n(B) 證券金融事業\n(C) 證券集中保管事業\n(D) 證券投資顧問事業"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "證券投資信託事業",
+            "explanation": "主要經營基金募集與投資管理。"
+          },
+          {
+            "index": 1,
+            "text": "證券金融事業",
+            "explanation": "主要從事融資融券等信用交易業務。"
+          },
+          {
+            "index": 2,
+            "text": "證券集中保管事業",
+            "explanation": "負責保管、清算與交割作業。"
+          },
+          {
+            "index": 3,
+            "text": "證券投資顧問事業",
+            "explanation": "正確答案。該事業提供投資建議與價值分析服務。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0025",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者為非？\n(A) 證券商須為股份有限公司\n(B) 證券商公司名稱應標明業務之字樣\n(C) 證券商不得使用類似證券商之名稱\n(D) 外國人不得投資我國證券商"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "證券商須為股份有限公司",
+            "explanation": "為法律明訂組織形式。"
+          },
+          {
+            "index": 1,
+            "text": "證券商公司名稱應標明業務之字樣",
+            "explanation": "屬公司登記與營業登記之規範。"
+          },
+          {
+            "index": 2,
+            "text": "證券商不得使用類似證券商之名稱",
+            "explanation": "避免誤導投資人，為正確敘述。"
+          },
+          {
+            "index": 3,
+            "text": "外國人不得投資我國證券商",
+            "explanation": "正確答案。外國人得依規定投資，故此敘述為錯誤。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0026",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "在中華信評之短期債信評等等級中，下列何者表示信評最低？\n(A) twA-1\n(B) twA-2\n(C) twA-3\n(D) twB"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "twA-1",
+            "explanation": "為中華信評最高等級短期債信。"
+          },
+          {
+            "index": 1,
+            "text": "twA-2",
+            "explanation": "次於 A-1。"
+          },
+          {
+            "index": 2,
+            "text": "twA-3",
+            "explanation": "次於 A-2，仍屬投資等級。"
+          },
+          {
+            "index": 3,
+            "text": "twB",
+            "explanation": "正確答案。twB 表示評等較差，為最低投資級甚至為投機級信評。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0027",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "在 Standard & Poor's 的評等等級中，哪一評等級以上（含） 的債券始為投資等級？\n(A) BB\n(B) BBB\n(C) BB\n(D) A"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "BB",
+            "explanation": "BB 屬於投機等級，低於投資級門檻。"
+          },
+          {
+            "index": 1,
+            "text": "BBB",
+            "explanation": "正確答案。BBB 為 S&P 評等中投資級的最低門檻。"
+          },
+          {
+            "index": 2,
+            "text": "BB",
+            "explanation": "與選項 A 重複，為非投資級。"
+          },
+          {
+            "index": 3,
+            "text": "A",
+            "explanation": "雖為投資級，但非最低等級。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0028",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "何者為避險基金之特色？\n甲.資訊透明度高；乙.可小額投資；丙.追求絕對報酬；丁.又稱對沖基金\n(A) 僅甲、乙\n(B) 僅乙、丙\n(C) 僅丙、丁\n(D) 甲、乙、丙"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅甲、乙",
+            "explanation": "資訊透明度通常不高，小額投資限制多，不全屬實。"
+          },
+          {
+            "index": 1,
+            "text": "僅乙、丙",
+            "explanation": "乙並不普遍成立，多數避險基金限制投資門檻。"
+          },
+          {
+            "index": 2,
+            "text": "僅丙、丁",
+            "explanation": "正確答案。避險基金特色為追求絕對報酬，並常被稱為對沖基金。"
+          },
+          {
+            "index": 3,
+            "text": "甲、乙、丙",
+            "explanation": "甲資訊透明度高並不屬實，避險基金常缺乏揭露義務。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0029",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "證券金融事業辦理融資融券業務，應經主管機關核准後由何者承辦？\n(A) 證券投資人\n(B) 證券商\n(C) 證券交易所\n(D) 金融監督管理委員會證券期貨局"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "證券投資人",
+            "explanation": "投資人僅為融資融券對象，不具辦理職權。"
+          },
+          {
+            "index": 1,
+            "text": "證券商",
+            "explanation": "正確答案。經主管機關核准後，實際業務由券商承辦。"
+          },
+          {
+            "index": 2,
+            "text": "證券交易所",
+            "explanation": "屬市場管理機構，不直接承辦。"
+          },
+          {
+            "index": 3,
+            "text": "金融監督管理委員會證券期貨局",
+            "explanation": "為核准機關，不為承辦單位。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0030",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "一個機構證券市場中發行市場之主要成員？\n(A) 證券自營商\n(B) 證券承銷商\n(C) 證券經紀商\n(D) 證券商"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "證券自營商",
+            "explanation": "以自有資金買賣證券，非主要發行成員。"
+          },
+          {
+            "index": 1,
+            "text": "證券承銷商",
+            "explanation": "正確答案。承銷商負責協助公司股票與債券發行。"
+          },
+          {
+            "index": 2,
+            "text": "證券經紀商",
+            "explanation": "從事委託買賣，屬於次級市場主要成員。"
+          },
+          {
+            "index": 3,
+            "text": "證券商",
+            "explanation": "包含承銷、自營、經紀，但非單一明確角色。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0031",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "有關共同基金與代客操作的比較，何者有誤？\n(A) 共同基金的銷售對象為不特定人\n(B) 有申報義務\n(C) 代客操作的對象為特定人\n(D) 兩者均依個別投資人的特定需求量身操作"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "共同基金的銷售對象為不特定人",
+            "explanation": "正確，共同基金透過公開方式募集。"
+          },
+          {
+            "index": 1,
+            "text": "有申報義務",
+            "explanation": "正確，二者皆需符合法規申報要求。"
+          },
+          {
+            "index": 2,
+            "text": "代客操作的對象為特定人",
+            "explanation": "正確，通常為個別客戶委任。"
+          },
+          {
+            "index": 3,
+            "text": "兩者均依個別投資人的特定需求量身操作",
+            "explanation": "正確答案。只有代客操作會依個別需求設計操作策略，共同基金為集合投資。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0032",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者不是信託目的事業？\n(A) 發行共同基金\n(B) 代客操作\n(C) 提供投資建議\n(D) 推介有價證券"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "發行共同基金",
+            "explanation": "屬信託型資產管理業務之一。"
+          },
+          {
+            "index": 1,
+            "text": "代客操作",
+            "explanation": "信託業可依法兼營。"
+          },
+          {
+            "index": 2,
+            "text": "提供投資建議",
+            "explanation": "亦屬資產信託功能之一。"
+          },
+          {
+            "index": 3,
+            "text": "推介有價證券",
+            "explanation": "正確答案。此為證券商或業務員執業範圍，非信託業本務。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0033",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者不是信託業務？\n(A) 發行共同基金\n(B) 代客操作\n(C) 發行共同票據"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "發行共同基金",
+            "explanation": "信託業可依規定發行集合投資證券。"
+          },
+          {
+            "index": 1,
+            "text": "代客操作",
+            "explanation": "為資產信託業務之一環。"
+          },
+          {
+            "index": 2,
+            "text": "發行共同票據",
+            "explanation": "正確答案。屬企業融資工具，與信託業無直接關聯。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0034",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者不是金融資訊業務？\n(A) 金融證券業務\n(B) 現金增資及承銷業務\n(C) 證券承銷業務"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 0,
+        "options": [
+          {
+            "index": 0,
+            "text": "金融證券業務",
+            "explanation": "正確答案。非金融資訊產業核心功能範圍。"
+          },
+          {
+            "index": 1,
+            "text": "現金增資及承銷業務",
+            "explanation": "資訊平台可提供承銷資訊揭露等服務。"
+          },
+          {
+            "index": 2,
+            "text": "證券承銷業務",
+            "explanation": "屬資訊揭露支援項目。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0035",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者不是集中保管所的業務範圍？\n(A) 有價證券的保管\n(B) 有價證券帳簿劃撥\n(C) 對證券商的轉融通\n(D) 無實體有價證券之登錄"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 0,
+        "options": [
+          {
+            "index": 0,
+            "text": "有價證券的保管",
+            "explanation": "正確答案。集中保管所處理的是登錄、劃撥與無實體交割，實體保管通常由保管銀行或券商處理。"
+          },
+          {
+            "index": 1,
+            "text": "有價證券帳簿劃撥",
+            "explanation": "此為集中保管制度最主要功能之一，屬業務範圍。"
+          },
+          {
+            "index": 2,
+            "text": "對證券商的轉融通",
+            "explanation": "集中保管所協助辦理融券業務中的轉融通業務。"
+          },
+          {
+            "index": 3,
+            "text": "無實體有價證券之登錄",
+            "explanation": "集中保管制度核心在於無實體登錄與帳簿劃撥，屬合法業務之一。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0036",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "根據標準普爾公司的信用等級，下列何者為垃圾債券的等級？\n(A) AA（包含）以下\n(B) A（包含）以下\n(C) BBB（包含）以下\n(D) BB（包含）以下"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "AA（包含）以下",
+            "explanation": "AA 仍屬高等級投資等級，不屬垃圾債券。"
+          },
+          {
+            "index": 1,
+            "text": "A（包含）以下",
+            "explanation": "A 至 BBB 都屬投資等級，仍不算垃圾債券。"
+          },
+          {
+            "index": 2,
+            "text": "BBB（包含）以下",
+            "explanation": "BBB 為投資級最低等級，以下才屬投機等級，但不夠精確。"
+          },
+          {
+            "index": 3,
+            "text": "BB（包含）以下",
+            "explanation": "正確答案。根據標普等級，BB 以下即屬投機等級（垃圾債）。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0037",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "垃圾債券的投資風險很高，主要是因為何種風險？\n(A) 通貨膨脹風險\n(B) 利率風險\n(C) 違約風險\n(D) 到期期間風險"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "通貨膨脹風險",
+            "explanation": "此風險影響所有固定收益商品，非垃圾債特有。"
+          },
+          {
+            "index": 1,
+            "text": "利率風險",
+            "explanation": "與市場利率變動有關，並非垃圾債風險來源主因。"
+          },
+          {
+            "index": 2,
+            "text": "違約風險",
+            "explanation": "正確答案。垃圾債信用評級低，發行人無力償債風險高。"
+          },
+          {
+            "index": 3,
+            "text": "到期期間風險",
+            "explanation": "影響長期債券較多，非特指垃圾債。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0038",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "在國外，下列何者屬於私募股權基金？\n(A) 創投基金\n(B) 併購基金\n(C) 重整基金\n(D) 以上皆是"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "創投基金",
+            "explanation": "創投基金為私募基金的一種類型。"
+          },
+          {
+            "index": 1,
+            "text": "併購基金",
+            "explanation": "此類基金也屬於私募股權基金範疇。"
+          },
+          {
+            "index": 2,
+            "text": "重整基金",
+            "explanation": "重整基金專注於企業困境或改組，也屬私募股權操作之一。"
+          },
+          {
+            "index": 3,
+            "text": "以上皆是",
+            "explanation": "正確答案。上述三種皆為私募股權基金常見形式。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0039",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者為累積特別股的特性？\n(A)允許特別股股東獲得比普通股股東更高的股利\n(B)允許發行公司從股東手中以事先指定價格買回股票\n(C)在普通股發放股利以前，可先發放以前尚未分配的股利\n(D)具有浮動的股利"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "允許特別股股東獲得比普通股股東更高的股利",
+            "explanation": "這是優先權的表現，但非累積股的主要特徵。"
+          },
+          {
+            "index": 1,
+            "text": "允許發行公司從股東手中以事先指定價格買回股票",
+            "explanation": "這是可贖回特別股的特徵，與累積性無關。"
+          },
+          {
+            "index": 2,
+            "text": "在普通股發放股利以前，可先發放以前尚未分配的股利",
+            "explanation": "正確答案。累積特別股可保留未發放的股利，並在未來優先補發。"
+          },
+          {
+            "index": 3,
+            "text": "具有浮動的股利",
+            "explanation": "這是浮動利率特別股的特徵。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0040",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "股份有限公司之股票轉讓6個月以上，最少應持有已發行股份總數多少，始得聲請法院選派檢查人？\n(A)1%\n(B)5%\n(C)7%\n(D)10%"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "1%",
+            "explanation": "比例過低，不符《公司法》第245條的規定。"
+          },
+          {
+            "index": 1,
+            "text": "5%",
+            "explanation": "正確答案。依《公司法》第245條，持股達5%以上股東可聲請法院選派檢查人。"
+          },
+          {
+            "index": 2,
+            "text": "7%",
+            "explanation": "高於法定標準，非正確選項。"
+          },
+          {
+            "index": 3,
+            "text": "10%",
+            "explanation": "雖為重大比例，但法律僅需5%。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0041",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "何謂要求委託書？\n(A)係以利益交換委託，代理出席股東會之行為\n(B)係依股份有限公司法請求召開股東會之行為\n(C)係以取得股東會表決權為目的，由招攬人以書面請求委託人簽署委託書，藉以出席股東會之行為\n(D)係代理董事會召開股東會之行為"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "係以利益交換委託，代理出席股東會之行為",
+            "explanation": "此為一種非法委託行為，非正式定義。"
+          },
+          {
+            "index": 1,
+            "text": "係依股份有限公司法請求召開股東會之行為",
+            "explanation": "此屬股東召集權行使，與委託書無關。"
+          },
+          {
+            "index": 2,
+            "text": "係以取得股東會表決權為目的，由招攬人以書面請求委託人簽署委託書，藉以出席股東會之行為",
+            "explanation": "正確答案。這是要求委託書的正式定義，常用於股東會委託表決。"
+          },
+          {
+            "index": 3,
+            "text": "係代理董事會召開股東會之行為",
+            "explanation": "這是特定情況下的召集行為，與委託書無直接關係。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0042",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "上市公司回收自己股份配給員工認購時，一定會使公司之：\n(A)股東權益減少\n(B)淨值總額增加\n(C)發行股份數下降\n(D)每股淨值增加"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "股東權益減少",
+            "explanation": "配股給員工不一定減少股東權益，視實際股價與成本而定。"
+          },
+          {
+            "index": 1,
+            "text": "淨值總額增加",
+            "explanation": "股份回收再發行未必影響淨值總額，與操作手法有關。"
+          },
+          {
+            "index": 2,
+            "text": "發行股份數下降",
+            "explanation": "股份回收後再發行給員工，總數不一定下降。"
+          },
+          {
+            "index": 3,
+            "text": "每股淨值增加",
+            "explanation": "正確答案。因總股份數下降（淨值分母減少），導致每股淨值上升。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0043",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "以下何者非台灣存託憑證之特性？\n(A)持有人可表決對應外國公司股票\n(B)新台幣計價\n(C)為本國公司所發行\n(D)國內掛牌上市"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "持有人可表決對應外國公司股票",
+            "explanation": "TDR 通常具有表決權或表決權由託管機構代理行使。"
+          },
+          {
+            "index": 1,
+            "text": "新台幣計價",
+            "explanation": "TDR 在台灣交易，以新台幣計價。"
+          },
+          {
+            "index": 2,
+            "text": "為本國公司所發行",
+            "explanation": "正確答案。TDR 是由外國公司透過存託銀行在台發行，並非本國公司發行。"
+          },
+          {
+            "index": 3,
+            "text": "國內掛牌上市",
+            "explanation": "TDR 會在台灣證券交易所掛牌。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0044",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者「不是」普通股的特性？\n(A)有公司股東會投票權\n(B)有優先認購新股權利\n(C)有盈餘分配權\n(D)有優先清償權"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "有公司股東會投票權",
+            "explanation": "這是普通股基本權利之一。"
+          },
+          {
+            "index": 1,
+            "text": "有優先認購新股權利",
+            "explanation": "普通股股東有權優先認購新股以避免持股被稀釋。"
+          },
+          {
+            "index": 2,
+            "text": "有盈餘分配權",
+            "explanation": "普通股股東有權分配公司盈餘。"
+          },
+          {
+            "index": 3,
+            "text": "有優先清償權",
+            "explanation": "正確答案。優先清償權屬於債權人與特別股，普通股在清償順序中為最後。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0045",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "有關台灣存託憑證持有者的敘述，何者「正確」？\n甲：可享有原股外國公司之股利分配權利；\n乙：可享有原股外國公司之剩餘財產分配權利；\n丙：可直接參與原股外國公司之股東會\n(A)僅甲\n(B)僅丙\n(C)僅甲、乙\n(D)僅甲、丙"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅甲",
+            "explanation": "雖然正確，但不是最完整答案。"
+          },
+          {
+            "index": 1,
+            "text": "僅丙",
+            "explanation": "持有者通常無法直接參與原公司股東會。"
+          },
+          {
+            "index": 2,
+            "text": "僅甲、乙",
+            "explanation": "正確答案。TDR 持有人有股利與剩餘財產分配權，但不能直接參與股東會。"
+          },
+          {
+            "index": 3,
+            "text": "僅甲、丙",
+            "explanation": "丙錯誤，持有人無股東會參與權。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0046",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者是執行可贖回特別股贖回權利之適當時機？\n甲：市場利率下跌時；\n乙：公司資金寬裕而無其他用途時；\n丙：公司不願再受特別股約定條款限制時\n(A)僅甲、乙\n(B)僅乙、丙\n(C)僅甲、丙\n(D)甲、乙、丙"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅甲、乙",
+            "explanation": "雖為合理時機，但未涵蓋不願受條款限制的情況。"
+          },
+          {
+            "index": 1,
+            "text": "僅乙、丙",
+            "explanation": "市場利率下跌也是常見贖回誘因，未包含甲為遺漏。"
+          },
+          {
+            "index": 2,
+            "text": "僅甲、丙",
+            "explanation": "公司資金寬裕時也是執行贖回的好時機，未包含乙為遺漏。"
+          },
+          {
+            "index": 3,
+            "text": "甲、乙、丙",
+            "explanation": "正確答案。以上三種皆為公司執行特別股贖回的合理時機。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0047",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "小花今年以63元股票價錢買進一張甲公司股票（股票面額為10元），假設一年後認股2元現金股利及2.5元的股票股利，一年後以65元賣出，請問一年後小花的報酬多少？（忽略交易成本與現金股利的時間價值）\n(A)20,250元\n(B)23,250元\n(C)22,250元\n(D)21,250元"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "20,250元",
+            "explanation": "未考慮股票股利與賣出價格變動，估算過低。"
+          },
+          {
+            "index": 1,
+            "text": "23,250元",
+            "explanation": "高於實際總報酬，估算過高。"
+          },
+          {
+            "index": 2,
+            "text": "22,250元",
+            "explanation": "正確答案：[(1+2.5%)×10張股票×65元]+2元×10張股票=22,250元"
+          },
+          {
+            "index": 3,
+            "text": "21,250元",
+            "explanation": "未計入完整報酬來源。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0048",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列有關特別股的敘述，何者「正確」？\n(A)特別股股東具有借貸債務性質特性\n(B)如果公司無盈餘無法發放特別股股利，將導致優先債權變成特別股股利的發放\n(C)公司的清算時，特別股股利的發放優先於普通股股利\n(D)所有的特別股都是發放固定股利"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "特別股股東具有借貸債務性質特性",
+            "explanation": "特別股具部分債權特性，但仍屬股權性質。"
+          },
+          {
+            "index": 1,
+            "text": "如果公司無盈餘無法發放特別股股利，將導致優先債權變成特別股股利的發放",
+            "explanation": "優先債權與特別股不同，無此變動。"
+          },
+          {
+            "index": 2,
+            "text": "公司的清算時，特別股股利的發放優先於普通股股利",
+            "explanation": "正確答案。特別股股利優先於普通股，但次於債權人。"
+          },
+          {
+            "index": 3,
+            "text": "所有的特別股都是發放固定股利",
+            "explanation": "有些特別股為浮動利率或無股利。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0049",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列敘述何者錯誤？\n(A)發放普通股股利會使得每股帳面價值減少\n(B)發放股票股利後，企業累積盈餘不變\n(C)發放優先股股利不須入帳揭露\n(D)股票分割會降低普通股股帳面金額"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "發放普通股股利會使得每股帳面價值減少",
+            "explanation": "因現金減少，資產與淨值減少，帳面價值下滑。"
+          },
+          {
+            "index": 1,
+            "text": "發放股票股利後，企業累積盈餘不變",
+            "explanation": "正確，股票股利僅屬權益內部轉帳。"
+          },
+          {
+            "index": 2,
+            "text": "發放優先股股利不須入帳揭露",
+            "explanation": "錯誤。股利發放皆須列入帳務並揭露。"
+          },
+          {
+            "index": 3,
+            "text": "股票分割會降低普通股股帳面金額",
+            "explanation": "面額減少，每股帳面金額會下降。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0050",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "在美國紅籌證券交易所上市交易之存託憑證，名稱為：\n(A)全球存託憑證\n(B)台灣存託憑證\n(C)新加坡存託憑證\n(D)美國存託憑證"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "全球存託憑證",
+            "explanation": "GDR 通常在歐洲等國交易，非於美國。"
+          },
+          {
+            "index": 1,
+            "text": "台灣存託憑證",
+            "explanation": "為外國公司在台發行之憑證。"
+          },
+          {
+            "index": 2,
+            "text": "新加坡存託憑證",
+            "explanation": "新加坡市場使用，與美國無關。"
+          },
+          {
+            "index": 3,
+            "text": "美國存託憑證",
+            "explanation": "正確答案。ADR 是在美國市場交易之存託憑證。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0051",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "持有已發行股份總數多少之股東得以書面向公司提出董事候選人名單？\n(A)1%\n(B)2%\n(C)3%\n(D)5%"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "1%",
+            "explanation": "比例過低，依法不符合門檻。"
+          },
+          {
+            "index": 1,
+            "text": "2%",
+            "explanation": "正確答案。依《公司法》規定，持股2%以上可提名董事候選人。"
+          },
+          {
+            "index": 2,
+            "text": "3%",
+            "explanation": "雖具代表性，但超過法定門檻。"
+          },
+          {
+            "index": 3,
+            "text": "5%",
+            "explanation": "此比例過高，並非《公司法》所定門檻。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0052",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "所稱總議參考價，即以：\n(A)除權當日開盤價為準\n(B)除權前一日收盤價為準\n(C)除權後一週平均價為準\n(D)除權後成交量最大日價格為準"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "除權當日開盤價為準",
+            "explanation": "僅為市場交易價格，非參考價依據。"
+          },
+          {
+            "index": 1,
+            "text": "除權前一日收盤價為準",
+            "explanation": "正確答案。總議參考價以除權前一交易日收盤價為準。"
+          },
+          {
+            "index": 2,
+            "text": "除權後一週平均價為準",
+            "explanation": "非主管機關核定的計算基準。"
+          },
+          {
+            "index": 3,
+            "text": "除權後成交量最大日價格為準",
+            "explanation": "無此規範，非正確參考依據。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0053",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "所稱除權參考價，即以：\n(A)除權當日開盤價減除權值\n(B)除權前1日收盤價加除權值\n(C)除權當日收盤價減權值\n(D)除權前1日收盤價減除權值"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "除權當日開盤價減除權值",
+            "explanation": "開盤價為市場機制產出，不用來作為參考價的基礎。"
+          },
+          {
+            "index": 1,
+            "text": "除權前1日收盤價加除權值",
+            "explanation": "此為不合理公式，加權值會導致價格偏高。"
+          },
+          {
+            "index": 2,
+            "text": "除權當日收盤價減權值",
+            "explanation": "收盤價為除權後結果，不能用來反推參考價。"
+          },
+          {
+            "index": 3,
+            "text": "除權前1日收盤價減除權值",
+            "explanation": "正確答案。除權參考價通常是前一交易日收盤價減除權值。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0054",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "上市公司發放股票股利給股東，則下列敘述何者正確？\n(A)會造成公司資產變少\n(B)會造成公司之淨值減少\n(C)會使負債增加\n(D)會造成公司流通在外股數增加、每股盈餘被稀釋"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "會造成公司資產變少",
+            "explanation": "股票股利僅屬股東權益項下帳面轉換，不影響資產。"
+          },
+          {
+            "index": 1,
+            "text": "會造成公司之淨值減少",
+            "explanation": "淨值不會因股利發放改變，僅結構改變。"
+          },
+          {
+            "index": 2,
+            "text": "會使負債增加",
+            "explanation": "股票股利與公司負債無關。"
+          },
+          {
+            "index": 3,
+            "text": "會造成公司流通在外股數增加、每股盈餘被稀釋",
+            "explanation": "正確答案。股數變多、盈餘分母變大，導致每股盈餘下降。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0055",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何種公司得參與存託機構發行台灣存託憑證(TDR)？\n(A)在台證券交易所掛牌之上市公司\n(B)已在財團法人中華民國證券櫃檯買賣中心掛牌上櫃公司\n(C)未上市亦未上櫃公司\n(D)已在經海外之外國證券交易所掛牌之外國公司"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "在台證券交易所掛牌之上市公司",
+            "explanation": "這類公司已可於台灣發行股票，無需另發 TDR。"
+          },
+          {
+            "index": 1,
+            "text": "已在財團法人中華民國證券櫃檯買賣中心掛牌上櫃公司",
+            "explanation": "此為本國上櫃公司，亦非 TDR 對象。"
+          },
+          {
+            "index": 2,
+            "text": "未上市亦未上櫃公司",
+            "explanation": "非公開發行公司不適合參與國際性發行。"
+          },
+          {
+            "index": 3,
+            "text": "已在經海外之外國證券交易所掛牌之外國公司",
+            "explanation": "正確答案。TDR 為外國公司於台灣掛牌交易的工具。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0056",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "關於股東提案權，下列何者正確？\n(A)提案股東不得委託他人出席股東常會\n(B)持有已發行股份總數1%以上股東得以提案\n(C)股東提案件數不受限制\n(D)議案於公告受理期間外提出者可情約入議案"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "提案股東不得委託他人出席股東常會",
+            "explanation": "股東依法可委託代理人出席會議。"
+          },
+          {
+            "index": 1,
+            "text": "持有已發行股份總數1%以上股東得以提案",
+            "explanation": "正確答案。依《公司法》規定，持股1%以上即可提案。"
+          },
+          {
+            "index": 2,
+            "text": "股東提案件數不受限制",
+            "explanation": "公司得設定提案數量上限。"
+          },
+          {
+            "index": 3,
+            "text": "議案於公告受理期間外提出者可情約入議案",
+            "explanation": "依規定須於公告期間內提出，逾期無效。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0057",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "除權前 1 日之收盤價與除權參考價之差額為：\n(A)現金股利\n(B)權值\n(C)總值\n(D)息票"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "現金股利",
+            "explanation": "此為除息之計算邏輯，與除權無關。"
+          },
+          {
+            "index": 1,
+            "text": "權值",
+            "explanation": "正確答案。除權參考價是前一日收盤價減去權值，權值即為差額。"
+          },
+          {
+            "index": 2,
+            "text": "總值",
+            "explanation": "總值不特指價差，非正確用詞。"
+          },
+          {
+            "index": 3,
+            "text": "息票",
+            "explanation": "息票通常用於債券利息，非股價調整之術語。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0058",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "特別股相對於普通股的優勢是：\n(A)特別股股東具有優先承認發放股利權利\n(B)特別股股利通常是無變動率\n(C)特別股具有較高的市場價值\n(D)特別股東具有經營權"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 0,
+        "options": [
+          {
+            "index": 0,
+            "text": "特別股股東具有優先承認發放股利權利",
+            "explanation": "正確答案。特別股通常比普通股享有優先分配股利的權利。"
+          },
+          {
+            "index": 1,
+            "text": "特別股股利通常是無變動率",
+            "explanation": "部分特別股為浮動利率，並非一律無變動。"
+          },
+          {
+            "index": 2,
+            "text": "特別股具有較高的市場價值",
+            "explanation": "市場價值受多重因素影響，不能一概而論。"
+          },
+          {
+            "index": 3,
+            "text": "特別股東具有經營權",
+            "explanation": "特別股通常無表決權，經營參與權有限。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0059",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "若投資人欲以課稅效率為優先考量來挑選定期定額 ETF，下列敘述何者正確？\n(A)獲配另外股利所得稅\n(B)投資國內股票型ETF為限\n(C)投資標的含債權比例高之ETF為限\n(D)指數型基金課稅效果最佳"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "獲配另外股利所得稅",
+            "explanation": "此為課稅結果，不代表投資效率考量。"
+          },
+          {
+            "index": 1,
+            "text": "投資國內股票型ETF為限",
+            "explanation": "正確答案。國內股票型ETF不課股利所得稅，具課稅效率。"
+          },
+          {
+            "index": 2,
+            "text": "投資標的含債權比例高之ETF為限",
+            "explanation": "債券型ETF通常需課稅，課稅效率較差。"
+          },
+          {
+            "index": 3,
+            "text": "指數型基金課稅效果最佳",
+            "explanation": "課稅效率與基金型態無必然關係，需視標的結構。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0060",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "國內內部基金依政府補助來源區分者皆屬於：\n(A)契約型基金\n(B)股份型基金\n(C)封閉型基金\n(D)公司型基金"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 0,
+        "options": [
+          {
+            "index": 0,
+            "text": "契約型基金",
+            "explanation": "正確答案。內部基金多以契約方式設立，政府補助者亦同。"
+          },
+          {
+            "index": 1,
+            "text": "股份型基金",
+            "explanation": "股份型基金常見於公司型結構。"
+          },
+          {
+            "index": 2,
+            "text": "封閉型基金",
+            "explanation": "封閉型為市場流通基金型態，非設立來源分類。"
+          },
+          {
+            "index": 3,
+            "text": "公司型基金",
+            "explanation": "公司型基金為法人設立，與政府補助無直接關聯。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0061",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "國內的共同基金可依其是否有設立期限區分為：\n(A)開放型基金\n(B)封閉型基金\n(C)公司型基金\n(D)契約型基金"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "開放型基金",
+            "explanation": "開放型基金依基金規模變動，不以設立期限為分類標準。"
+          },
+          {
+            "index": 1,
+            "text": "封閉型基金",
+            "explanation": "正確答案。封閉型基金常設有固定期間並於市場交易。"
+          },
+          {
+            "index": 2,
+            "text": "公司型基金",
+            "explanation": "為法律形式，不依設立期限分類。"
+          },
+          {
+            "index": 3,
+            "text": "契約型基金",
+            "explanation": "契約型為設立方式，不涉及期限問題。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0062",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "投資共同基金之優點為：甲.可保證獲取高於市場平均之報酬率；乙.可分散投資風險；丙.可透過專業經理管理；丁.基金市價便低在高於其淨值，可創造套利機會\n(A)僅甲、乙\n(B)僅乙、丙、丁\n(C)僅甲、丙\n(D)僅甲、丁"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅甲、乙",
+            "explanation": "甲為錯誤，基金報酬無法保證超越市場。"
+          },
+          {
+            "index": 1,
+            "text": "僅乙、丙、丁",
+            "explanation": "正確答案。乙丙丁皆為共同基金優點，甲錯誤。"
+          },
+          {
+            "index": 2,
+            "text": "僅甲、丙",
+            "explanation": "甲錯誤，不能保證報酬。"
+          },
+          {
+            "index": 3,
+            "text": "僅甲、丁",
+            "explanation": "僅丁正確，甲錯。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0063",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "有關指數股票型基金(ETF)的敘述何者「正確」？\n甲.ETF 風險較投資單一標的高；乙.是被動管理型商品；丙.一般證券投資信託基金不得投資於ETF；丁.只需要少數資金，即可參與多家績優股行情\n(A)僅甲、丁\n(B)僅乙、丙\n(C)僅甲、乙與丁\n(D)僅乙、丁"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅甲、丁",
+            "explanation": "甲為錯誤，ETF風險通常較低；乙、丁才是正確。"
+          },
+          {
+            "index": 1,
+            "text": "僅乙、丙",
+            "explanation": "丙錯誤，投信基金可投資ETF。"
+          },
+          {
+            "index": 2,
+            "text": "僅甲、乙與丁",
+            "explanation": "甲錯誤，ETF風險低於單一標的。"
+          },
+          {
+            "index": 3,
+            "text": "僅乙、丁",
+            "explanation": "正確答案。ETF為被動型商品，可用少量資金分散投資績優股。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0064",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列哪個組合為多重資產型之資產配置比例？\n(A)股票 90%、債券 10%\n(B)股票 80%、債券 10%、REITS：10%\n(C)股票 100%\n(D)股票 70%、REITS：30%"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "股票 90%、債券 10%",
+            "explanation": "未涵蓋多種資產類型，不符合『多重資產』定義。"
+          },
+          {
+            "index": 1,
+            "text": "股票 80%、債券 10%、REITS：10%",
+            "explanation": "正確答案。涵蓋股票、債券與不動產信託，屬多重資產型配置。"
+          },
+          {
+            "index": 2,
+            "text": "股票 100%",
+            "explanation": "僅為單一資產類型。"
+          },
+          {
+            "index": 3,
+            "text": "股票 70%、REITS：30%",
+            "explanation": "仍為兩種資產，不足以稱為多重配置。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0065",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "某些 ETN 商品，屬衍生商品，以下何者有誤？\n(A)發行證券商之信用風險\n(B)標的價格風險\n(C)未上市或未上櫃風險\n(D)追蹤誤差之風險"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "發行證券商之信用風險",
+            "explanation": "ETN 為債券性質產品，發行商信用風險存在。"
+          },
+          {
+            "index": 1,
+            "text": "標的價格風險",
+            "explanation": "標的波動會影響 ETN 價格，風險確實存在。"
+          },
+          {
+            "index": 2,
+            "text": "未上市或未上櫃風險",
+            "explanation": "正確答案。ETN 發行後會上市，無未上市風險。"
+          },
+          {
+            "index": 3,
+            "text": "追蹤誤差之風險",
+            "explanation": "雖低於 ETF，但仍可能存在追蹤誤差風險。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0066",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "某共同基金的資產價值爲 1,035 萬元，發行受益憑證數目是 50 萬單位，假設基金支付現金股息 5 萬元，則支付後基金的單位淨資產價值應是：\n(A)19.7 元\n(B)27 元\n(C)21 元\n(D)20.6 元"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "19.7 元",
+            "explanation": "可能未計入完整計算流程。"
+          },
+          {
+            "index": 1,
+            "text": "27 元",
+            "explanation": "顯著高於計算結果，推測錯誤。"
+          },
+          {
+            "index": 2,
+            "text": "21 元",
+            "explanation": "為發放前的 NAV（1,050 萬 ÷ 50 萬），未反映發放後淨值。"
+          },
+          {
+            "index": 3,
+            "text": "20.6 元",
+            "explanation": "正確答案。發放股息後淨資產為 1,035 萬 - 5 萬 = 1,030 萬；淨值為 1,030 萬 ÷ 50 萬 = 20.6 元。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0067",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "採定期定額投資共同基金時，下列敘述何者「正確」？\n甲.當股價處高點，可購得之基金單位數越多；乙.當股價越高時點，可購得之基金單位數越少；丙.當股價下跌時，可購得之基金單位數愈多；丁.當股價下跌時，可購得之基金單位數愈少\n(A)僅甲、丙\n(B)僅乙、丙\n(C)僅甲、丁\n(D)僅乙、丁"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "僅甲、丙",
+            "explanation": "甲正確，但丙才是重點；甲與丙不構成完整正確敘述。"
+          },
+          {
+            "index": 1,
+            "text": "僅乙、丙",
+            "explanation": "正確答案。股價低時可買更多單位，波動越大平均成本效果越明顯。"
+          },
+          {
+            "index": 2,
+            "text": "僅甲、丁",
+            "explanation": "丁錯誤，價格不變則單位數不變。"
+          },
+          {
+            "index": 3,
+            "text": "僅乙、丁",
+            "explanation": "丁錯誤，甲也未包含進來。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0068",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "ETF 和開放型股票型共同基金相比較，何者為「非」？\n(A)ETF無最低申購金額限制\n(B)ETF可以投資國內外證券\n(C)股票型基金通常允許用人工或電話下單\n(D)ETF 是以追蹤大盤或是標的指數為主"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "ETF無最低申購金額限制",
+            "explanation": "ETF 可一股一股交易，無最低申購限制。"
+          },
+          {
+            "index": 1,
+            "text": "ETF可以投資國內外證券",
+            "explanation": "ETF 涵蓋國內外市場，屬實。"
+          },
+          {
+            "index": 2,
+            "text": "股票型基金通常允許用人工或電話下單",
+            "explanation": "正確答案。開放型基金通常以自動轉帳或定期扣款方式操作，人工下單並不常見。"
+          },
+          {
+            "index": 3,
+            "text": "ETF 是以追蹤大盤或是標的指數為主",
+            "explanation": "ETF 主要目標即為追蹤指數。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0069",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "證券投資信託事業應於何時公告基金資產淨值與單位淨值？\n(A)依基金規模不同，每週公告一次\n(B)每一營業日公告淨值\n(C)於基金成立後一週\n(D)於每月公告前一月"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "依基金規模不同，每週公告一次",
+            "explanation": "公告頻率與基金規模無關。"
+          },
+          {
+            "index": 1,
+            "text": "每一營業日公告淨值",
+            "explanation": "正確答案。依規定應每日公告基金單位與資產淨值。"
+          },
+          {
+            "index": 2,
+            "text": "於基金成立後一週",
+            "explanation": "僅針對成立初期，不適用後續持續公告需求。"
+          },
+          {
+            "index": 3,
+            "text": "於每月公告前一月",
+            "explanation": "非正規公告頻率。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0070",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "私募基金依公司法辦理時，其投資人數限制為？\n(A)不得超過 20 人\n(B)不得超過 35 人\n(C)不得超過 50 人\n(D)不得超過 99 人"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "不得超過 20 人",
+            "explanation": "適用於部分證券發行豁免條件，非基金限制。"
+          },
+          {
+            "index": 1,
+            "text": "不得超過 35 人",
+            "explanation": "並非私募基金於公司法下之明確限制人數。"
+          },
+          {
+            "index": 2,
+            "text": "不得超過 50 人",
+            "explanation": "為常見股東人數限制，非私募基金適用上限。"
+          },
+          {
+            "index": 3,
+            "text": "不得超過 99 人",
+            "explanation": "正確答案。依《公司法》規範，私募基金不得超過 99 位投資人。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0071",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何者非屬國民年金代扣提撥收入銷售總收入？非屬下列哪個機關代扣其費用並提撥之項目：\n(A)營業稅免稅收入\n(B)金融監督管理委員會\n(C)勞保局\n(D)臺灣證券交易所"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 0,
+        "options": [
+          {
+            "index": 0,
+            "text": "營業稅免稅收入",
+            "explanation": "正確答案。免稅收入不列入代扣項目中。"
+          },
+          {
+            "index": 1,
+            "text": "金融監督管理委員會",
+            "explanation": "有參與部分代扣政策執行與管理責任。"
+          },
+          {
+            "index": 2,
+            "text": "勞保局",
+            "explanation": "為主要保險費扣繳與代提機構之一。"
+          },
+          {
+            "index": 3,
+            "text": "臺灣證券交易所",
+            "explanation": "部分證券從業收入有代扣可能。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0072",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列有關指數投資證券（ETN）之敘述，何者為非？\n(A)在證券市場交易\n(B)無到期日\n(C)由證券商支付與追蹤標的指數連結之報酬\n(D)申購／贖回均採現金交付"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "在證券市場交易",
+            "explanation": "ETN 與 ETF 一樣於交易所掛牌，具流動性。"
+          },
+          {
+            "index": 1,
+            "text": "無到期日",
+            "explanation": "正確答案。ETN 通常設有到期日，此項敘述錯誤。"
+          },
+          {
+            "index": 2,
+            "text": "由證券商支付與追蹤標的指數連結之報酬",
+            "explanation": "屬 ETN 本質，為一種債務工具，由發行人支付。"
+          },
+          {
+            "index": 3,
+            "text": "申購／贖回均採現金交付",
+            "explanation": "此為 ETN 特性，不採用實物交割。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0073",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "目前於台灣掛牌交易之反向型 ETF 倍數為可放空幾倍？\n(A)1 倍\n(B)2 倍\n(C)3 倍\n(D)1.5 倍"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 0,
+        "options": [
+          {
+            "index": 0,
+            "text": "1 倍",
+            "explanation": "正確答案。台灣規範反向型 ETF 槓桿僅允許 1 倍反向。"
+          },
+          {
+            "index": 1,
+            "text": "2 倍",
+            "explanation": "多數槓桿型 ETF 可能有此倍數，但反向型則限於 1 倍。"
+          },
+          {
+            "index": 2,
+            "text": "3 倍",
+            "explanation": "我國尚未開放此類高槓桿反向型商品。"
+          },
+          {
+            "index": 3,
+            "text": "1.5 倍",
+            "explanation": "非法規允許範圍。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0074",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列關於共同基金的敘述，何者正確？\n(A)封閉型基金的買賣價格依以淨值為基準\n(B)開放型基金可隨時申贖與贖回\n(C)封閉型基金的淨值一定隨市場價格變動\n(D)封閉型基金隨時可向投信公司申請贖回"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "封閉型基金的買賣價格依以淨值為基準",
+            "explanation": "封閉型基金價格受市場供需影響，可能與淨值不同。"
+          },
+          {
+            "index": 1,
+            "text": "開放型基金可隨時申贖與贖回",
+            "explanation": "正確答案。開放型基金每日可申購或贖回。"
+          },
+          {
+            "index": 2,
+            "text": "封閉型基金的淨值一定隨市場價格變動",
+            "explanation": "淨值由資產計算，與市場價格無直接連動。"
+          },
+          {
+            "index": 3,
+            "text": "封閉型基金隨時可向投信公司申請贖回",
+            "explanation": "封閉型基金無法直接向投信贖回，只能透過市場交易。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0075",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "何種共同基金的風險最大？\n(A)股票型基金\n(B)債券型基金\n(C)平衡型基金\n(D)貨幣市場基金"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 0,
+        "options": [
+          {
+            "index": 0,
+            "text": "股票型基金",
+            "explanation": "正確答案。股票波動性較大，因此風險較高。"
+          },
+          {
+            "index": 1,
+            "text": "債券型基金",
+            "explanation": "風險次於股票型，受利率變動影響。"
+          },
+          {
+            "index": 2,
+            "text": "平衡型基金",
+            "explanation": "由股票與債券組合，風險居中。"
+          },
+          {
+            "index": 3,
+            "text": "貨幣市場基金",
+            "explanation": "最為保守、風險最低的基金類型。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0076",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列關於組合基金與平衡型基金的比較，何者正確？\n(A)兩者均採追蹤大盤指數的投資策略\n(B)平衡型基金可直接投資股票與債券\n(C)組合基金可直接投資股票、債券及其他共同基金\n(D)風險均大於股票型基金"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 2,
+        "options": [
+          {
+            "index": 0,
+            "text": "兩者均採追蹤大盤指數的投資策略",
+            "explanation": "僅ETF類基金以追蹤指數為目標，組合與平衡型並非如此。"
+          },
+          {
+            "index": 1,
+            "text": "平衡型基金可直接投資股票與債券",
+            "explanation": "雖正確，但組合基金的投資方式更具代表性。"
+          },
+          {
+            "index": 2,
+            "text": "組合基金可直接投資股票、債券及其他共同基金",
+            "explanation": "正確答案。組合基金具多元投資彈性，資產組合可包含其他基金。"
+          },
+          {
+            "index": 3,
+            "text": "風險均大於股票型基金",
+            "explanation": "股票型基金風險最高，該敘述錯誤。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0077",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "投資公司應將投資共同基金交由何種機構保管？\n(A)財政部\n(B)證券商業同業公會\n(C)信託投資公司\n(D)保管銀行"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "財政部",
+            "explanation": "財政部為監理機關，非資產保管人。"
+          },
+          {
+            "index": 1,
+            "text": "證券商業同業公會",
+            "explanation": "公會屬業界團體，並無保管功能。"
+          },
+          {
+            "index": 2,
+            "text": "信託投資公司",
+            "explanation": "雖有信託功能，但非專責基金保管。"
+          },
+          {
+            "index": 3,
+            "text": "保管銀行",
+            "explanation": "正確答案。共同基金依法須由保管銀行負責資產保管。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0078",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列有關 ETF 與開放型共同基金的比較，何者正確？\n(A)ETF 所收取的管理費高於共同基金\n(B)兩者皆可用人工申購交易\n(C)兩者均無折、溢價的問題\n(D)ETF 在交易所掛牌交易，可於盤中自由交易"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "ETF 所收取的管理費高於共同基金",
+            "explanation": "ETF 管理費相對較低。"
+          },
+          {
+            "index": 1,
+            "text": "兩者皆可用人工申購交易",
+            "explanation": "ETF 通常在市場直接買賣，不需人工申購。"
+          },
+          {
+            "index": 2,
+            "text": "兩者均無折、溢價的問題",
+            "explanation": "ETF 可能有折溢價，基金則無。"
+          },
+          {
+            "index": 3,
+            "text": "ETF 在交易所掛牌交易，可於盤中自由交易",
+            "explanation": "正確答案。ETF 特性為可於交易時段內自由交易。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0079",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "大華銀建議投資人於持有債券、短期票券與貨幣市場工具交易之總金額應達基金資產淨值的比重是多少？\n(A)50%\n(B)60%\n(C)70%\n(D)80%"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "50%",
+            "explanation": "低於實務建議比例。"
+          },
+          {
+            "index": 1,
+            "text": "60%",
+            "explanation": "亦低於指導比例。"
+          },
+          {
+            "index": 2,
+            "text": "70%",
+            "explanation": "接近正確值但仍不足。"
+          },
+          {
+            "index": 3,
+            "text": "80%",
+            "explanation": "正確答案。建議固定收益產品投資佔比達八成以確保安全性。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0080",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "元大寶來發行之 300 ETF 屬於下列何者？\n(A)國內股票型 ETF\n(B)國內成分股 ETF\n(C)境外 ETF\n(D)債券 ETF"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "國內股票型 ETF",
+            "explanation": "不夠具體，未完整描述商品屬性。"
+          },
+          {
+            "index": 1,
+            "text": "國內成分股 ETF",
+            "explanation": "正確答案。300 ETF 追蹤台股市值前 300 大成分股。"
+          },
+          {
+            "index": 2,
+            "text": "境外 ETF",
+            "explanation": "非追蹤境外資產，敘述錯誤。"
+          },
+          {
+            "index": 3,
+            "text": "債券 ETF",
+            "explanation": "與實際資產標的不符。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0081",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "依據證交所規定，購買證券投資信託基金而言，單筆配息收入若超過新台幣多少元，投資人將被課徵 2.11% 的補充保費？\n(A)5,000 元\n(B)1 萬元\n(C)2 萬元\n(D)3 萬元"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "5,000 元",
+            "explanation": "未達課徵標準。"
+          },
+          {
+            "index": 1,
+            "text": "1 萬元",
+            "explanation": "正確答案。超過 1 萬元須課徵 2.11% 補充保費。"
+          },
+          {
+            "index": 2,
+            "text": "2 萬元",
+            "explanation": "高於課稅門檻。"
+          },
+          {
+            "index": 3,
+            "text": "3 萬元",
+            "explanation": "高於規定標準，不符規定。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0082",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "下列何種投資法計算單位平均成本會最低？\n(A)單筆投資\n(B)定期定額投資\n(C)配息再投入\n(D)不一定"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 1,
+        "options": [
+          {
+            "index": 0,
+            "text": "單筆投資",
+            "explanation": "單筆投資平均成本取決於進場點，可能偏高。"
+          },
+          {
+            "index": 1,
+            "text": "定期定額投資",
+            "explanation": "正確答案。透過平滑購入成本，有效降低平均單位成本。"
+          },
+          {
+            "index": 2,
+            "text": "配息再投入",
+            "explanation": "目的為資產增值，非降低成本策略。"
+          },
+          {
+            "index": 3,
+            "text": "不一定",
+            "explanation": "若採長期投資，定期定額最常見可平均成本。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ipas-finance-ch1-0083",
+    "title": "chapter01",
+    "questionPages": [
+      {
+        "index": 0,
+        "content": {
+          "type": "text",
+          "text": "在我國投資追蹤外指數的 ETF，漲跌幅限制為：\n(A)7%\n(B)10%\n(C)5%\n(D)無限制"
+        }
+      }
+    ],
+    "answerPages": [
+      {
+        "index": 0,
+        "correctAnswerIndex": 3,
+        "options": [
+          {
+            "index": 0,
+            "text": "7%",
+            "explanation": "屬於國內個股漲跌幅限制，不適用外指數 ETF。"
+          },
+          {
+            "index": 1,
+            "text": "10%",
+            "explanation": "亦非外指數 ETF 之適用標準。"
+          },
+          {
+            "index": 2,
+            "text": "5%",
+            "explanation": "此為某些 ETF 設限標準，但非普遍。"
+          },
+          {
+            "index": 3,
+            "text": "無限制",
+            "explanation": "正確答案。外指數 ETF 依標的交易地規定，無我國漲跌幅限制。"
+          }
+        ]
+      }
+    ]
+  }
+]

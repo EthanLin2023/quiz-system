@@ -1,0 +1,35 @@
+-- 試卷表格
+CREATE TABLE exams (
+    id VARCHAR(20) PRIMARY KEY,
+    title VARCHAR(100) NOT NULL
+);
+
+-- 問題頁面表格
+CREATE TABLE question_pages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    exam_id VARCHAR(20),
+    `index` INT NOT NULL,
+    content_type VARCHAR(50),
+    content_text TEXT,
+    explanation TEXT,
+    FOREIGN KEY (exam_id) REFERENCES exams(id)
+);
+
+-- 答案頁面表格
+CREATE TABLE answer_pages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    exam_id VARCHAR(20),
+    `index` INT NOT NULL,
+    correct_answer_index INT NOT NULL,
+    FOREIGN KEY (exam_id) REFERENCES exams(id)
+);
+
+-- 選項表格
+CREATE TABLE options (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    answer_page_id INT,
+    `index` INT NOT NULL,
+    text VARCHAR(255) NOT NULL,
+    explanation TEXT,
+    FOREIGN KEY (answer_page_id) REFERENCES answer_pages(id)
+);
