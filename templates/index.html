@@ -78,6 +78,7 @@
         <!-- 第二個畫面：測驗進行 -->
         <div id="screen2" class="screen">
             <h2>測驗進行中</h2>
+            <p>章節：<span id="current-chapter"></span></p>
             <div class="question-block" id="question-text"></div>
             <div class="options-block" id="options"></div>
             <button onclick="submitAnswer()" id="submit-btn">確認</button>
@@ -101,7 +102,7 @@
         let totalQuestions = 0;
         let selectedChapter = '';
 
-        // Initialize: Load chapters
+        // 初始化：載入章節列表
         fetch('/api/chapters')
             .then(response => response.json())
             .then(data => {
@@ -114,7 +115,7 @@
                 });
             });
 
-        // Update total questions when chapter changes
+        // 當章節變更時更新題目數量
         document.getElementById('chapter-select').addEventListener('change', function() {
             selectedChapter = this.value;
             if (selectedChapter) {
@@ -132,7 +133,7 @@
             }
         });
 
-        // Start quiz
+        // 開始測驗
         function startQuiz() {
             const start = parseInt(document.getElementById('start-question').value);
             const end = parseInt(document.getElementById('end-question').value);
@@ -149,14 +150,16 @@
                 .then(data => {
                     questions = data;
                     showScreen('screen2');
+                    document.getElementById('current-chapter').textContent = selectedChapter;
                     loadQuestion();
                 });
         }
 
-        // Load question
+        // 載入題目
         function loadQuestion() {
             const q = questions[currentQuestion];
-            document.getElementById('question-text').textContent = `${currentQuestion + 1}. ${q.question}`;
+            // 使用後端返回的 question_number 作為題目編號
+            document.getElementById('question-text').textContent = `${q.question_number}. ${q.question}`;
             const optionsDiv = document.getElementById('options');
             optionsDiv.innerHTML = '';
             const labels = ['A', 'B', 'C', 'D'];
@@ -172,7 +175,7 @@
             document.getElementById('submit-btn').style.display = 'block';
         }
 
-        // Submit answer
+        // 提交答案
         function submitAnswer() {
             const selected = document.querySelector('input[name="option"]:checked');
             if (!selected) {
@@ -219,7 +222,7 @@
             document.getElementById('next-btn').style.display = 'block';
         }
 
-        // Next question
+        // 下一題
         function nextQuestion() {
             currentQuestion++;
             if (currentQuestion < questions.length) {
@@ -229,7 +232,7 @@
             }
         }
 
-        // Show results
+        // 顯示結果
         function showResults() {
             showScreen('screen3');
             const score = answers.filter(a => a.userAnswer === a.correctAnswer).length;
@@ -245,7 +248,7 @@
             });
         }
 
-        // Show detailed record
+        // 顯示詳細紀錄
         function showDetail(index) {
             const a = answers[index];
             const labels = ['A', 'B', 'C', 'D'];
@@ -256,7 +259,7 @@
             alert(`題目: ${a.question}\n你的選擇: ${a.userText}\n正確答案: ${a.correctText}\n解釋:\n${explanationText}`);
         }
 
-        // Switch screens
+        // 切換畫面
         function showScreen(screenId) {
             document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
             document.getElementById(screenId).classList.add('active');
